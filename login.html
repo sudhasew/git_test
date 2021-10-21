@@ -13,31 +13,39 @@
       <nav>
         <img class="logo" src="logo.png" alt="fox-logo" />
         <ul>
-          <li a href="#">The Science</li>
-          <li a href="#">Blog</li>
-          <li a href="#">For Work</li>
-          <li a href="#">Log In</li>
-          <li class="sign-up-button" a href="#">Sign Up For Free</li>
+          <li><a href="#">The Science</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">For Work</a></li>
+          <li><a href="#">Log In</a></li>
+          <li><a class="sign-up-button" href="#">Sign Up For Free</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <div class="form">
-        <form action="Log In">
+      <div>
+        <form class="form">
           <h1>Log In</h1>
-          <h2>NEW TO HEADSPACE?</h2>
-          <form>
-            <button>SIGN UP FOR FREE</button>
-          </form>
-          <form>
+          <div>
+            <p>NEW TO HEADSPACE?<button>SIGN UP FOR FREE</button></p>
+          </div>
+          <div class="input">
             <input type="text" id="Email" placeholder="Email adrress" />
-          </form>
-          <input type="text" id="password" placeholder="Password" />
-          <button>Forgot?</button>
-          <input type="checkbox" id="checkbox" name="checkbox" checked />
-          <label for="checkbox">REMEMBER ME</label>
+          </div>
+          <div class="input">
+            <input type="text" id="password" placeholder="Password" />
+            <button>Forgot?</button>
+          </div>
+          <div>
+            <input type="checkbox" id="checkbox" name="checkbox" checked />
+            <label for="checkbox">REMEMBER ME</label>
+          </div>
           <button type="submit">LOG IN</button>
+          <h3>OR</h3>
+          <div>
+            <button>LOG IN WITH FACEBOOK</button>
+          </div>
+          <button>LOGIN WITH SPOTIFY</button>
         </form>
       </div>
     </main>
