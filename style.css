@@ -53,12 +53,25 @@ main {
 input#checkbox {
   margin: 0;
 }
-.form {
+.form-login {
   height: 435px;
   width: 320px;
   font-size: 1em;
   background-color: white;
   padding: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.form-signin {
+  height: 300px;
+  width: 250px;
+  font-size: 1em;
+  background-color: white;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .signupfree {
   color: orange;
