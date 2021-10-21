@@ -1,9 +1,11 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Lato", sans-serif;
 }
 header {
   height: 80px;
+  font-size: 12px;
 }
 .logo {
   width: 80px;
@@ -17,8 +19,9 @@ ul {
   padding-right: 10px;
 }
 nav ul li a {
-  padding-left: 10px;
+  padding-left: 15px;
   text-decoration: none;
+  color: gray;
 }
 .sign-up-button {
   border: 2px solid orange;
@@ -26,7 +29,7 @@ nav ul li a {
   text-decoration: none;
   padding: 5px;
   color: orange;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 main {
   height: 100vh;
@@ -39,18 +42,85 @@ main {
   justify-content: center;
 }
 .form {
-  height: 500px;
-  width: 350px;
+  height: 400px;
+  width: 330px;
+  font-size: 1em;
   background-color: white;
-  text-align: center;
+  padding: 30px;
   /* display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column; */
 }
-.input input {
-  border: none;
+.signupfree {
+  color: orange;
+  background-color: white;
 }
+.email input,
+.pass input {
+  font-size: 10px;
+  width: 100%;
+  padding-top: 30px;
+  padding-right: 0;
+  padding-left: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+h1 {
+  color: solid black;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.h1 {
+  color: solid black;
+}
+p,
+h3 {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 5px;
+}
+/* input#email,
+input#password {
+  width: 100%;
+  padding: 10px;
+} */
 button {
   border: none;
+  /* color: white; */
+  cursor: pointer;
+  margin-top: 0;
+}
+.forgot-button {
+  color: gray;
+  background-color: white;
+  margin-bottom: 15px;
+}
+.forgot {
+  text-align: right;
+}
+.login {
+  color: white;
+  margin-top: 20px;
+  width: 100%;
+  padding: 15px;
+  background-color: grey;
+}
+.facebook {
+  color: white;
+  margin-top: 0;
+  width: 100%;
+  padding: 15px;
+  background-color: dodgerblue;
+}
+.spotify {
+  color: white;
+  margin-top: 10px;
+  width: 100%;
+  padding: 15px;
+  background-color: green;
 }

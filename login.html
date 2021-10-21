@@ -16,6 +16,7 @@
           <li><a href="#">The Science</a></li>
           <li><a href="#">Blog</a></li>
           <li><a href="#">For Work</a></li>
+          <li><a href="#">Subscribe</a></li>
           <li><a href="#">Log In</a></li>
           <li><a class="sign-up-button" href="#">Sign Up For Free</a></li>
         </ul>
@@ -25,27 +26,33 @@
     <main>
       <div>
         <form class="form">
-          <h1>Log In</h1>
+          <h1 class="h1">Log In</h1>
           <div>
-            <p>NEW TO HEADSPACE?<button>SIGN UP FOR FREE</button></p>
+            <p>
+              NEW TO HEADSPACE?<button class="signupfree">
+                SIGN UP FOR FREE
+              </button>
+            </p>
           </div>
-          <div class="input">
-            <input type="text" id="Email" placeholder="Email adrress" />
+          <div class="email">
+            <input type="text" id="email" placeholder="Email adrress" />
           </div>
-          <div class="input">
+          <div class="pass">
             <input type="text" id="password" placeholder="Password" />
-            <button>Forgot?</button>
+          </div>
+          <div class="forgot">
+            <button class="forgot-button">FORGOT?</button>
           </div>
           <div>
             <input type="checkbox" id="checkbox" name="checkbox" checked />
             <label for="checkbox">REMEMBER ME</label>
           </div>
-          <button type="submit">LOG IN</button>
+          <button class="login" type="submit">LOG IN</button>
           <h3>OR</h3>
           <div>
-            <button>LOG IN WITH FACEBOOK</button>
+            <button class="facebook">LOG IN WITH FACEBOOK</button>
           </div>
-          <button>LOGIN WITH SPOTIFY</button>
+          <button class="spotify">LOGIN WITH SPOTIFY</button>
         </form>
       </div>
     </main>
