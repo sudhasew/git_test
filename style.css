@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 50px;
+}
+.logo {
+  width: 150px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding-right: 25px;
+}
+nav ul li {
+  padding-left: 10px;
+}
+.sign-up-button {
+  border: 2px solid orange;
+  border-radius: 20px;
+  padding: 5px;
+  color: orange;
+}
+main {
+  height: 100vh;
+  background-image: url(background.jpeg);
+  background-repeat: no-repeat;
+  width: auto;
+  background-size: cover;
+}
+.form {
+  height: 500px;
+  width: 350px;
+  background-color: white;
+  align-items: center;
+}
