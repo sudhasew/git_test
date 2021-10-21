@@ -6,9 +6,12 @@ body {
 header {
   height: 80px;
   font-size: 12px;
+  padding-right: 20px;
+  padding-left: 10px;
 }
 .logo {
   width: 80px;
+  text-align: center;
 }
 nav,
 ul {
@@ -16,7 +19,6 @@ ul {
   align-items: center;
   justify-content: space-between;
   list-style: none;
-  padding-right: 10px;
 }
 nav ul li a {
   padding-left: 15px;
@@ -41,16 +43,19 @@ main {
   align-items: center;
   justify-content: center;
 }
+.check {
+  color: gray;
+  margin-top: 15px;
+}
+input#checkbox {
+  margin: 0;
+}
 .form {
-  height: 400px;
-  width: 330px;
+  height: 435px;
+  width: 320px;
   font-size: 1em;
   background-color: white;
-  padding: 30px;
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column; */
+  padding: 40px;
 }
 .signupfree {
   color: orange;
@@ -58,7 +63,8 @@ main {
 }
 .email input,
 .pass input {
-  font-size: 10px;
+  font-size: 12px;
+  font-weight: 400;
   width: 100%;
   padding-top: 30px;
   padding-right: 0;
@@ -76,28 +82,32 @@ h1 {
 .h1 {
   color: solid black;
 }
-p,
-h3 {
+p {
+  color: gray;
   font-size: 15px;
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
   padding: 5px;
 }
-/* input#email,
-input#password {
-  width: 100%;
+h3 {
+  color: gray;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 10px;
-} */
+}
 button {
   border: none;
-  /* color: white; */
   cursor: pointer;
   margin-top: 0;
 }
 .forgot-button {
   color: gray;
   background-color: white;
+  padding-right: 0;
+  padding-top: 5px;
   margin-bottom: 15px;
 }
 .forgot {
